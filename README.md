@@ -18,7 +18,11 @@ Key dependencies include `transformers`, `peft`, `deepspeed`, and `torch`.
 ## Running Experiments
 
 ### 0. Dataset Preparation
-Before running experiments, please download the WorldValuesBench repository from [https://github.com/Demon702/WorldValuesBench](https://github.com/Demon702/WorldValuesBench) and place it in the `WorldValuesBench/` directory.
+- **WorldValuesBench (WVB)**: Download the repository from [https://github.com/Demon702/WorldValuesBench](https://github.com/Demon702/WorldValuesBench) and place its contents in the `WorldValuesBench/` directory.
+- **PRISM & Community Alignment (CA)**: Run the provided download script to fetch these from Hugging Face:
+  ```bash
+  python download_datasets.py
+  ```
 
 ### 1. Preprocessing
 Run the scripts in `process_datasets/` to prepare the WVB, CA, and PRISM datasets.

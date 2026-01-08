@@ -22,6 +22,15 @@ def save_split(name, subset=None, split="train"):
     print(f"Saved {name} ({subset or 'default'}) {split} split to {full_path}")
 
 # Download All Required Datasets
-save_split("HannahRoseKirk/prism-alignment", "conversations", "train")
-save_split("HannahRoseKirk/prism-alignment", "survey", "train")
-save_split("facebook/community-alignment-dataset", "benchmark", "filtered")
+if __name__ == "__main__":
+    print("Starting download of PRISM and Community Alignment datasets...")
+    
+    # PRISM Alignment Dataset
+    save_split("HannahRoseKirk/prism-alignment", "conversations", "train")
+    save_split("HannahRoseKirk/prism-alignment", "survey", "train")
+    
+    # Community Alignment Dataset (Facebook)
+    save_split("facebook/community-alignment-dataset", "benchmark", "filtered")
+    
+    print("\nDownload complete. Datasets are saved in '../MyDatasets'.")
+    print("You can now run 'python process_datasets/process_datasets.py' to prepare them.")
