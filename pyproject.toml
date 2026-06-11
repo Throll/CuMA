@@ -1,9 +1,23 @@
 [project]
 name = "cuma"
-version = "0.1.0"
-description = "Add your description here"
+version = "1.0.0"
+description = "CuMA: Aligning LLMs with Sparse Cultural Values via Demographic-Aware Mixture of Adapters (ACL 2026)"
 readme = "README.md"
 requires-python = ">=3.10, <3.13"
+license = {text = "Apache-2.0"}
+authors = [
+    {name = "Ao Sun", email = "sunao@seu.edu.cn"},
+    {name = "Xiaoyu Wang"},
+    {name = "Zhe Tan"},
+    {name = "Yu Li"},
+    {name = "Jiachen Zhu"},
+    {name = "Yuheng Jia", email = "yhjia@seu.edu.cn"},
+    {name = "Shu Su", email = "sushu@seu.edu.cn"},
+]
+
+[project.urls]
+Homepage = "https://github.com/Throll/CuMA"
+Paper = "https://aclanthology.org/2026.acl-long.XXX/"
 dependencies = [
     "accelerate>=1.10.1",
     "bitsandbytes>=0.48.0",
@@ -36,5 +50,4 @@ prerelease = "allow"
 
 [[tool.uv.index]]
 url = "https://mirrors.aliyun.com/pypi/simple/"
-default = true
 

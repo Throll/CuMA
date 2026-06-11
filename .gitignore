@@ -154,3 +154,4 @@ MyModels/
 MyDatasets/
 .idea/
 .vscode/
+.DS_Store
