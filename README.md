@@ -127,11 +127,14 @@ GRPO training is also supported via `train/train_cuma_grpo.py` with GPT-4o as th
 If you find this work useful, please cite:
 
 ```bibtex
-@inproceedings{sun2026cuma,
-    title     = {{CuMA}: Aligning {LLMs} with Sparse Cultural Values via Demographic-Aware Mixture of Adapters},
-    author    = {Sun, Ao and Wang, Xiaoyu and Tan, Zhe and Li, Yu and Zhu, Jiachen and Jia, Yuheng and Su, Shu},
-    booktitle = {Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL)},
-    year      = {2026}
+@misc{sun2026cuma,
+    title={CuMA: Aligning LLMs with Sparse Cultural Values via Demographic-Aware Mixture of Adapters},
+    author={Ao Sun and Xiaoyu Wang and Zhe Tan and Yu Li and Jiachen Zhu and Yuheng Jia and Shu Su},
+    year={2026},
+    eprint={2601.04885},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL},
+    url={https://arxiv.org/abs/2601.04885},
 }
 ```
 
