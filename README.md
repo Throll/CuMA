@@ -1,12 +1,10 @@
 # CuMA: Aligning LLMs with Sparse Cultural Values via Demographic-Aware Mixture of Adapters
 
 <p align="center">
-  <!-- <a href="https://2026.aclweb.org/"><img src="https://img.shields.io/badge/ACL%202026-Main%20Conference-blue" alt="ACL 2026"></a> -->
+  <a href="https://aclanthology.org/2026.acl-long.1265/"><img src="https://img.shields.io/badge/ACL%202026-Main%20Conference-blue" alt="ACL 2026"></a>
   <a href="https://arxiv.org/abs/2601.04885"><img src="https://img.shields.io/badge/arXiv-2601.04885-b31b1b.svg" alt="arXiv"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-green.svg" alt="License"></a>
 </p>
-
-<!-- > **Status.** CuMA has been accepted to the ACL 2026 Main Conference. The ACL Anthology/proceedings page is not available yet. The current public preprint is [arXiv v1](https://arxiv.org/html/2601.04885v1); an updated v2 will follow. -->
 
 <p align="center">
   <img src="figures/fig1.png" width="90%" alt="Mechanism of Mean Collapse and the CuMA Solution">
@@ -127,14 +125,28 @@ GRPO training is also supported via `train/train_cuma_grpo.py` with GPT-4o as th
 If you find this work useful, please cite:
 
 ```bibtex
-@misc{sun2026cuma,
-    title={CuMA: Aligning LLMs with Sparse Cultural Values via Demographic-Aware Mixture of Adapters},
-    author={Ao Sun and Xiaoyu Wang and Zhe Tan and Yu Li and Jiachen Zhu and Yuheng Jia and Shu Su},
-    year={2026},
-    eprint={2601.04885},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL},
-    url={https://arxiv.org/abs/2601.04885},
+@inproceedings{sun-etal-2026-cuma,
+    title = "{C}u{MA}: Aligning {LLM}s with Sparse Cultural Values via Demographic-Aware Mixture of Adapters",
+    author = "Sun, Ao  and
+      Wang, Xiaoyu  and
+      Tan, Zhe  and
+      Li, Yu  and
+      Zhu, Jiachen  and
+      Jia, Yuheng  and
+      Su, Shu",
+    editor = "Liakata, Maria  and
+      Moreira, Viviane P.  and
+      Zhang, Jiajun  and
+      Jurgens, David",
+    booktitle = "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.acl-long.1265/",
+    doi = "10.18653/v1/2026.acl-long.1265",
+    pages = "27423--27441",
+    ISBN = "979-8-89176-390-6"
 }
 ```
 
